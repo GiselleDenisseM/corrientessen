@@ -14,76 +14,44 @@ body {
     font-family: 'Nunito Sans', sans-serif;
 }
 
-
-
 /*personalizar menu*/
 header .menu{
     display: flex;
     justify-content: space-around;
-    /*height: 100px;*/
     background-color: #c2e5df;
-    /*display: flex;*/
-    /*justify-content: space-between;*/
-    /*align-items: center;*/
-    position: sticky;
-    top: 0;  
 }
 
-.menu nav {
-    align-items: flex-end;
-    display: flex;
-    /*align-self: flex-end;
-    margin-bottom: 10px;*/
-
-}
-
-/*posicional ul*/
-.menu nav ul {
-    list-style: none;
-    display: flex;
-
-    background-color: #ffb6ad;
-    /*display: flex;*/
-    /*align-self: flex-end;*/
+.navbar-expand-lg .navbar-nav {
+    background-color: #ffb6ad91;
     border-radius: 5px;
-    /*padding: 5px 20px 5px 20px;*/
 }
-
-
-/*personalizar li*/
-.menu nav ul li {
-    list-style: none;
-    margin: 0px 15px;
-    
-    
-
-}
-
-
 
 /*tamaño del logo*/
 .menu img {
     width: 130px;
-
 }
 
-
-
-
-/*personalizar fuente menu de navegacion*/
-.menu nav ul li a {
+/*personalizar menu de navegacion*/
+.navbar-nav .nav-link.active{
+    color:#353535;
     font-size: 1.2rem;
-    color: black;
     text-decoration: none;
     font-weight: 1000;
-    color: #5e554c;
+    text-align: center;
+}
+
+.nav-link {
+    color:#353535;
+    font-size: 1.2rem;
+    text-decoration: none;
+    font-weight: 1000;
+    text-align: center;
 }
 
 /*carrusel*/
 .carrusel img {
     width: 100%;
 }
-
 
 /*personalizar titulos y subtitulos*/
 .titulos {
@@ -114,13 +82,12 @@ h4,h5 {
 }
 
 /*Colocar imagenes al lado de ingredientes y procedimiento*/
-
 main .recetas {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    
 }
+
 main .recetas .reverse {
     display: flex;
     align-items: center;
@@ -148,8 +115,6 @@ main .recetas .reverse {
     list-style-type: none;
 }
 
-
-
 .recetas .descripcion-receta ul li {
     margin-left: 10px;
     text-decoration: none;
@@ -157,7 +122,6 @@ main .recetas .reverse {
 }
 
 /*catalogo*/
-
 .productos-padre {
     display: flex;
     justify-content:space-evenly;
@@ -166,13 +130,13 @@ main .recetas .reverse {
 
 .productos-padre p {
     width: 500px;
-
 }
 
 /*personalizar imagenes de catalogo*/
 .catalogo img {
     width: 20%;
 }
+
 /*personalizar boton "me interesa" de catalogo*/
 .catalogo a {
     font-size: 1.1rem;
@@ -183,8 +147,6 @@ main .recetas .reverse {
     text-align: center;
     border-radius: 5px;
     padding: 5px;
-   
-    
 }
 
 /*incorporacion*/
@@ -204,13 +166,12 @@ main .recetas .reverse {
     padding: 30px;
     align-content: center;
     padding: 25px;
-    
 }
 
+
 .incorp-pres-padre img {
-    width: 500px;
+    width: 50%;
     border-radius: 5%;
-    
 }
 
 .incorp-pres-padre p {
@@ -228,12 +189,8 @@ main .recetas .reverse {
     grid-template-rows: repeat(2,1fr);
     gap: 10px;
     background-color: #ffb6ad;
-    
-    /*display: flex;
-    justify-content:center;
-    padding: 30px;
-    align-content: center;*/
 }
+
 .beneficio-padre img {
     width: 300px;
     border-radius: 5%;
@@ -246,8 +203,6 @@ main .recetas .reverse {
     text-align: center;
     font-weight: 1000;
     color: #5e554c;
-
-
 }
 
 
@@ -270,7 +225,6 @@ main .recetas .reverse {
     width: 300px;
     font-size: 1.3rem;
     text-align: center
-
 }
 
 /*nosotros*/
@@ -341,12 +295,6 @@ main .recetas .reverse {
 /*MEDIA QUERIES*/
 /*tablet*/
 @media only screen and (max-width: 768px){
-.menu {
-    flex-direction: column;
-    padding: 10px 0px;
-    align-items: center;
-    
-}
 
 .recetas {
     flex-direction: column;
@@ -371,7 +319,6 @@ main .recetas .reverse {
     width: 100%;
 
 }
-
 
 .incorp-pres-padre {
     flex-direction: column;
@@ -407,15 +354,7 @@ main .recetas .reverse {
 /*mobile*/
 @media only screen and (max-width: 576px) {
     /*Estilos generales*/
-.menu {
-    flex-direction: column;
-    padding: 10px 0px;
-    align-items: center;
-}
 
-.menu img {
-    width: 30%;
-}
 
 .recetas {
     flex-direction: column;
