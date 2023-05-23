@@ -1,0 +1,94 @@
+/*general*/
+
+/* fuente*/
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&family=Open+Sans&display=swap');
+
+/*resetear los estilos por defecto del navegador*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*fuente del body*/
+body {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+/*personalizar menu*/
+header .menu{
+    display: flex;
+    justify-content: space-around;
+    background-color: #c2e5df;
+}
+
+.navbar-expand-lg .navbar-nav {
+    background-color: #ffb6ad91;
+    border-radius: 5px;
+}
+
+/*tamaño del logo*/
+.menu img {
+    width: 130px;
+}
+
+/*personalizar menu de navegacion*/
+.navbar-nav .nav-link.active{
+    color:#353535;
+    font-size: 1.2rem;
+    text-decoration: none;
+    font-weight: 1000;
+    text-align: center;
+}
+
+.nav-link {
+    color:#353535;
+    font-size: 1.2rem;
+    text-decoration: none;
+    font-weight: 1000;
+    text-align: center;
+}
+
+/*carrusel*/
+.carrusel img {
+    width: 100%;
+}
+
+/*personalizar titulos y subtitulos*/
+.titulos {
+    font-size: 3rem;
+    text-align: center;
+}
+.subtitulos {
+    font-size: 1.3rem;
+    text-align: center;
+    padding: 25px;
+}
+
+/*personalizar parrafos*/
+p {
+    text-align: justify;
+    padding: 20px;
+    color: #5e554c;
+}
+
+h3 {
+    margin-top: 20px;
+    text-align: center;
+    background-color: #ffb6ad;
+}
+
+h4,h5 {
+    margin: 20px;
+}
+
+/*personalizar pie de pagina*/
+.autor {
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+/*personalizar logos de redes*/
+.logos-redes {
+    text-align: center;
+    
+}

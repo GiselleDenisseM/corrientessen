@@ -1,0 +1,37 @@
+/*home*/
+main .recetas {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+   .recetas .reverse {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: row-reverse;
+}
+}
+
+/*personalizar imagenes de home*/
+.recetas img {
+    width: 500px;
+    margin-left: 10px;
+    border-radius: 100%;
+
+    ul li {
+        margin-left: 10px; 
+}
+}
+
+.recetas .descripcion-receta {
+    width: 700px;
+}
+.recetas .descripcion-receta ol li {
+    margin-left: 10px;
+    text-decoration: none;
+    list-style-type: none;
+    ul li {
+    margin-left: 10px;
+    text-decoration: none;
+    list-style-type: none;
+}
+}

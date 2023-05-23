@@ -1,0 +1,77 @@
+/*incorporacion*/
+/*personalizar imagenes*/
+.incorporacion img {
+    width: 30%;
+    margin-left: 10px;
+}
+
+.incorporacion ul li {
+    margin-left: 10px;
+}
+
+.incorp-pres-padre {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    align-content: center;
+    padding: 25px;
+}
+
+
+.incorp-pres-padre img {
+    width: 50%;
+    border-radius: 5%;
+}
+
+.incorp-pres-padre p {
+    width: 300px;
+    font-size: 1.3rem;
+    text-align: center;
+    
+}
+.beneficio-padre {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    align-items: center;
+    justify-items: center;
+    padding: 25px;
+    grid-template-rows: repeat(2,1fr);
+    gap: 10px;
+    background-color: #ffb6ad;
+}
+
+.beneficio-padre img {
+    width: 300px;
+    border-radius: 5%;
+}
+
+.beneficio-padre ul li {
+    list-style-type: none;
+    width: 300px;
+    font-size: 1.3rem;
+    text-align: center;
+    font-weight: 1000;
+    color: #5e554c;
+}
+
+
+.requisito-padre {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    justify-items: center;
+    grid-template-rows: repeat(1,1fr);
+    gap: 10px;
+}
+
+.requisito-padre img{
+    width: 500px;
+    border-radius: 5%;
+}
+
+.requisito-padre ul li {
+    list-style-type: none;
+    width: 300px;
+    font-size: 1.3rem;
+    text-align: center
+}

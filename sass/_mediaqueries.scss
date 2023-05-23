@@ -1,0 +1,117 @@
+
+/*MEDIA QUERIES*/
+/*tablet*/
+@media only screen and (max-width: 768px){
+
+    .recetas {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    main .recetas .reverse {
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    
+    .recetas img {
+        width: 50%;
+    }
+    
+    .recetas .reverse img {
+        width: 50%;
+    }
+    
+    .recetas .descripcion-receta {
+        width: 100%;
+    
+    }
+    
+    .incorp-pres-padre {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .incorp-pres-padre img {
+        margin: 0;
+    }
+    
+    .beneficio-padre {
+        grid-template-columns: repeat(1,1fr);
+        width: 84%;
+    }
+    
+    .requisito-padre {
+        grid-template-columns: repeat(1,1fr);
+    }
+    
+    .productos-padre {
+        margin: 20px;
+        flex-direction: column;
+    }
+    
+    .productos-padre img {
+        width: 30%;
+    }
+    
+    }
+    
+    
+    
+    /*mobile*/
+    @media only screen and (max-width: 576px) {
+        /*Estilos generales*/
+    
+    
+    .recetas {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    main .recetas .reverse {
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    
+    .recetas img {
+        width: 50%;
+    }
+    
+    .recetas .reverse img {
+        width: 50%;
+    }
+    
+    .recetas .descripcion-receta {
+        width: 100%;
+    
+    }
+    
+    .incorp-pres-padre {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .incorp-pres-padre img {
+        margin: 0;
+    }
+    
+    .beneficio-padre {
+        grid-template-columns: repeat(1,1fr);
+        width: 84%;
+    }
+    
+    .requisito-padre {
+        grid-template-columns: repeat(1,1fr);
+    }
+    
+    .productos-padre {
+        margin: 20px;
+        flex-direction: column;
+    }
+    
+    .productos-padre img {
+        width: 50%;
+    }
+    
+    }

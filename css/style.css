@@ -81,29 +81,37 @@ h4, h5 {
   margin: 20px;
 }
 
-/*Colocar imagenes al lado de ingredientes y procedimiento*/
+/*personalizar pie de pagina*/
+.autor {
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+/*personalizar logos de redes*/
+.logos-redes {
+  text-align: center;
+}
+
+/*home*/
 main .recetas {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
 }
-
-main .recetas .reverse {
+main .recetas .recetas .reverse {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
   flex-direction: row-reverse;
 }
 
-/*home/*
 /*personalizar imagenes de home*/
 .recetas img {
   width: 500px;
   margin-left: 10px;
   border-radius: 100%;
 }
-
-.recetas ul li {
+.recetas img ul li {
   margin-left: 10px;
 }
 
@@ -116,8 +124,7 @@ main .recetas .reverse {
   text-decoration: none;
   list-style-type: none;
 }
-
-.recetas .descripcion-receta ul li {
+.recetas .descripcion-receta ol li ul li {
   margin-left: 10px;
   text-decoration: none;
   list-style-type: none;
@@ -243,6 +250,7 @@ main .recetas .reverse {
   gap: 10px;
 }
 
+/*contacto*/
 /*personalizar formulario*/
 .caja-formulario {
   text-align: center;
@@ -278,17 +286,6 @@ main .recetas .reverse {
   padding: 10px;
   margin: 5px;
   border: 1px solid rgba(172, 172, 172, 0.651);
-}
-
-/*personalizar pie de pagina*/
-.autor {
-  font-size: 0.8rem;
-  text-align: center;
-}
-
-/*personalizar logos de redes*/
-.logos-redes {
-  text-align: center;
 }
 
 /*MEDIA QUERIES*/

@@ -1,0 +1,27 @@
+/*catalogo*/
+.productos-padre {
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+
+.productos-padre p {
+    width: 500px;
+}
+
+/*personalizar imagenes de catalogo*/
+.catalogo img {
+    width: 20%;
+}
+
+/*personalizar boton "me interesa" de catalogo*/
+.catalogo a {
+    font-size: 1.1rem;
+    color: black;
+    text-decoration: none;
+    font-weight: 1000;
+    background-color:#c2e5df;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px;
+}

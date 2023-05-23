@@ -1,0 +1,15 @@
+/*nosotros*/
+/*personalizar imagenes*/
+.nosotros-padre img {
+    width: 70%;
+    border-radius: 5%;
+}
+
+.nosotros-padre {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    justify-items: center;
+    grid-template-rows: repeat(1,1fr);
+    gap: 10px;
+}
