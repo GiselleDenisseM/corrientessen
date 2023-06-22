@@ -137,9 +137,6 @@ main .recetas .recetas .reverse {
   align-items: center;
 }
 
-.productos-padre p {
-  width: 500px;
-}
 
 /*personalizar imagenes de catalogo*/
 .catalogo img {
@@ -165,9 +162,9 @@ main .recetas .recetas .reverse {
   margin-left: 10px;
 }
 
-.incorporacion ul li {
+/*.incorporacion ul li {
   margin-left: 10px;
-}
+}*/
 
 .incorp-pres-padre {
   display: flex;
@@ -178,7 +175,7 @@ main .recetas .recetas .reverse {
 }
 
 .incorp-pres-padre img {
-  width: 50%;
+  width: 60%;
   border-radius: 5%;
 }
 
@@ -196,17 +193,19 @@ main .recetas .recetas .reverse {
   padding: 25px;
   grid-template-rows: repeat(2, 1fr);
   gap: 10px;
+  width: 100%;
   background-color: #ffb6ad;
 }
 
 .beneficio-padre img {
-  width: 300px;
+  width: 80%;
   border-radius: 5%;
+  
 }
 
 .beneficio-padre ul li {
   list-style-type: none;
-  width: 300px;
+  width: 100%;
   font-size: 1.3rem;
   text-align: center;
   font-weight: 1000;
@@ -223,14 +222,14 @@ main .recetas .recetas .reverse {
 }
 
 .requisito-padre img {
-  width: 500px;
+  width: 80%;
   border-radius: 5%;
 }
 
 .requisito-padre ul li {
   list-style-type: none;
-  width: 300px;
-  font-size: 1.3rem;
+  width: 100%;
+  font-size: 1rem;
   text-align: center;
 }
 
@@ -317,7 +316,7 @@ main .recetas .recetas .reverse {
   }
   .beneficio-padre {
     grid-template-columns: repeat(1, 1fr);
-    width: 84%;
+    width: 100%;
   }
   .requisito-padre {
     grid-template-columns: repeat(1, 1fr);
@@ -359,7 +358,7 @@ main .recetas .recetas .reverse {
   }
   .beneficio-padre {
     grid-template-columns: repeat(1, 1fr);
-    width: 84%;
+    width: 100%;
   }
   .requisito-padre {
     grid-template-columns: repeat(1, 1fr);
